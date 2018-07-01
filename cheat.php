@@ -134,7 +134,7 @@ do
 		// By giving errors like time not synced or failed to join.
 		// Everyone at level 21 or above already has their Rank 6 badge
 		// So please don't change this and let's get this mini game over with
-		if( $Data[ 'response' ][ 'level' ] >= 21 )
+		if( $Data[ 'response' ][ 'level' ] >= 30 )
 		{
 			$RandomizeZone = 1;
 
@@ -463,7 +463,7 @@ do
 			);
 		}
 
-		if( $Data[ 'new_level' ] >= 21 )
+		if( $Data[ 'new_level' ] >= 30 )
 		{
 			$RandomizeZone = 1;
 		}
